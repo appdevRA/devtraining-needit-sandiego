@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Log">8ceab9bc87285110c6fafd57dabb3576</copied_from>
+        <description>Log: {{Step 2: Record Insert.Record}}Test of when needed with a date in the past should fail as needit record cannot be inserted with when needed date value of today or in the past</description>
+        <display_name>Log</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>4</order>
+        <snapshot/>
+        <step_config display_value="Log">58ab71985f30220012b44adb7f46661e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-05 05:20:55</sys_created_on>
+        <sys_id>989bb5fc87285110c6fafd57dabb3503</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Log</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_989bb5fc87285110c6fafd57dabb3503</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-05 05:22:54</sys_updated_on>
+        <table/>
+        <test display_value="When Needed - Today">049bf1fc87285110c6fafd57dabb35d4</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=989bb5fc87285110c6fafd57dabb3503"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>989bb5fc87285110c6fafd57dabb3503</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-05 05:20:55</sys_created_on>
+        <sys_id>d89bb5fc87285110c6fafd57dabb3504</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-05 05:22:54</sys_updated_on>
+        <value>{{step['8c9bf1fc87285110c6fafd57dabb35de'].record_id}}Test of when needed with a date in the past should fail as needit record cannot be inserted with when needed date value of today or in the past</value>
+        <variable display_value="Log">523c79985f30220012b44adb7f46663a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=989bb5fc87285110c6fafd57dabb3503"/>
+    <sys_element_mapping action="DELETE">
+        <field>log</field>
+        <id>989bb5fc87285110c6fafd57dabb3503</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-05 05:20:55</sys_created_on>
+        <sys_id>dc9bb5fc87285110c6fafd57dabb3504</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-05 05:22:54</sys_updated_on>
+        <table>var__m_atf_input_variable_58ab71985f30220012b44adb7f46661e</table>
+        <value>{{step['8c9bf1fc87285110c6fafd57dabb35de'].record_id}}Test of when needed with a date in the past should fail as needit record cannot be inserted with when needed date value of today or in the past</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>81367aecdb7d095010543feb6896190a</instance_id>
+        <instance_name>dev125101</instance_name>
+        <name>sys_atf_step_989bb5fc87285110c6fafd57dabb3503</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Log">8ceab9bc87285110c6fafd57dabb3576</copied_from><description>Log: {{Step 2: Record Insert.Record}}Test of when needed with a date in the past should fail as needit record cannot be inserted with when needed date value of today or in the past</description><display_name>Log</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>4</order><snapshot/><step_config display_value="Log">58ab71985f30220012b44adb7f46661e</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-05 05:20:55</sys_created_on><sys_id>989bb5fc87285110c6fafd57dabb3503</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Log</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_step_989bb5fc87285110c6fafd57dabb3503</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-05 05:22:54</sys_updated_on><table/><test display_value="When Needed - Today">049bf1fc87285110c6fafd57dabb35d4</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=989bb5fc87285110c6fafd57dabb3503"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>989bb5fc87285110c6fafd57dabb3503</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-05 05:20:55</sys_created_on><sys_id>d89bb5fc87285110c6fafd57dabb3504</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-05 05:22:54</sys_updated_on><value>{{step['8c9bf1fc87285110c6fafd57dabb35de'].record_id}}Test of when needed with a date in the past should fail as needit record cannot be inserted with when needed date value of today or in the past</value><variable display_value="Log">523c79985f30220012b44adb7f46663a</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=989bb5fc87285110c6fafd57dabb3503"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>log</field><id>989bb5fc87285110c6fafd57dabb3503</id><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-05 05:20:55</sys_created_on><sys_id>dc9bb5fc87285110c6fafd57dabb3504</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-05 05:22:54</sys_updated_on><table>var__m_atf_input_variable_58ab71985f30220012b44adb7f46661e</table><value>{{step['8c9bf1fc87285110c6fafd57dabb35de'].record_id}}Test of when needed with a date in the past should fail as needit record cannot be inserted with when needed date value of today or in the past</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-293562035</payload_hash>
+        <record_name>Log</record_name>
+        <reverted_from/>
+        <source>7ee224d387101110c6fafd57dabb3590</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-05 05:22:54</sys_created_on>
+        <sys_id>850c7dfc87285110c6fafd57dabb3583</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181cccfb8ac0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-05 05:22:54</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>8d0c7dfc6828511080385c132f100782</update_guid>
+        <update_guid_history>8d0c7dfc6828511080385c132f100782:-293562035,589bb5fcc0285110192b76820d158e0b:-1262281242,189bb5fc732851101cd5399a35816b06:1902025862</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-05 05:34:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>2a703304ef2e4738b91c2834a6f30d10</sys_id>
+        <sys_metadata>989bb5fc87285110c6fafd57dabb3503</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Log</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_989bb5fc87285110c6fafd57dabb3503</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_989bb5fc87285110c6fafd57dabb3503">850c7dfc87285110c6fafd57dabb3583</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-05 05:34:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
